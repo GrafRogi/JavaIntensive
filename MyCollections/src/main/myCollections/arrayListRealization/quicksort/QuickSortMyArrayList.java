@@ -9,15 +9,13 @@ import main.myCollections.arrayListRealization.MyArrayListRealization;
 public class QuickSortMyArrayList<E>  {
 
     /**
+     * @param <E>
      * This method should return objects from the myArrayList in new order
-     * Однако он пока не работает:(
+     * Method uses quicksort.
+     * middle O(n*Log(n))
      */
 
-    public QuickSortMyArrayList(MyArrayListRealization<E> myArrayListRealization){
-        quicksort(myArrayListRealization, 0, myArrayListRealization.size() - 1 );
-    }
-
-    private static <E extends Comparable<E>> void quicksort(MyArrayListRealization<E> myArrayListRealization, int lowIndex, int highIndex) {
+    public static <E extends Comparable<E>> void quicksort(MyArrayListRealization<E> myArrayListRealization, int lowIndex, int highIndex) {
 
         E pivot = myArrayListRealization.get(myArrayListRealization.size() - 1);
 

@@ -17,18 +17,21 @@ public class Main {
      */
 
     public static void main(String[] args) {
-        MyArrayListRealization<String> strings = new MyArrayListRealization<>();
-        strings.add("Igor");
-        strings.add("Fiodor");
-        strings.add("Valeria");
-        strings.add("Olya");
-
+        MyArrayListRealization<Integer> strings = new MyArrayListRealization<>();
+        strings.add(1);
+        strings.add(2);
+        strings.add(7);
+        strings.add(5);
+        strings.add(3);
+        strings.add(4);
         System.out.println(strings.size());
 
-        for (String s: strings){
-        System.out.println(s);}
+        for (Integer s: strings){
+            System.out.println(s);}
 
+        QuickSortMyArrayList.quicksort(strings, 0, strings.size() -1);
 
-
+        for (Integer s: strings){
+            System.out.println(s);}
     }
 }

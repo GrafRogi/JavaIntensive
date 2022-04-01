@@ -7,7 +7,7 @@ import java.util.Iterator;
  * This is my realization of ArrayList.
  */
 
-public class MyArrayListRealization<E> implements MyArrayList<E>, Comparable<E> {
+public class MyArrayListRealization<E> implements MyArrayList<E> {
 
     private E[] values;
 
@@ -91,23 +91,6 @@ public class MyArrayListRealization<E> implements MyArrayList<E>, Comparable<E> 
         return new ArrayIterator<E>(values);
     }
 
-    /**
-     * This method is the Comparable interface realization
-     * This method compares Object from myArray list.
-     * It will return 1, if first object greater;
-     * It will return 0, if objects equals;
-     * It will return -1, if first object smaller;
-     */
-
-    @Override
-    public int compareTo(E o) {
-        if (this.hashCode() > o.hashCode()) {
-            return 1;
-        } else if (this.hashCode() < o.hashCode()) {
-            return -1;
-        } else {
-            return 0;
-        }
-    }
 }
+
 
