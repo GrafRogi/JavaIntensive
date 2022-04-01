@@ -1,9 +1,20 @@
 package main;
 
 import main.myCollections.arrayListRealization.MyArrayListRealization;
-import main.quicksort.QuickSortMyArrayList;
+import main.myCollections.arrayListRealization.quicksort.QuickSortMyArrayList;
+
+/**
+ * This is my Main class.
+ *
+ * @author Igor Gorokh
+ */
 
 public class Main {
+
+    /**
+     * Here start point of the program
+     * @param args comand line values
+     */
 
     public static void main(String[] args) {
         MyArrayListRealization<String> strings = new MyArrayListRealization<>();
@@ -17,13 +28,7 @@ public class Main {
         for (String s: strings){
         System.out.println(s);}
 
-        QuickSortMyArrayList<String> quickSortMyArrayList = new QuickSortMyArrayList<>();
 
-        quickSortMyArrayList.add("Igor");
-        quickSortMyArrayList.add("Fiodor");
-        quickSortMyArrayList.add("Valeria");
-        quickSortMyArrayList.add("Olya");
 
-        q
     }
 }

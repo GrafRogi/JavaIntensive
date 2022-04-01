@@ -1,8 +1,21 @@
-package main.quicksort;
+package main.myCollections.arrayListRealization.quicksort;
 
 import main.myCollections.arrayListRealization.MyArrayListRealization;
 
-public class QuickSortMyArrayList<E> extends MyArrayListRealization  {
+/**
+ * This class is used for quick sorting Object from myArrayList
+ */
+
+public class QuickSortMyArrayList<E>  {
+
+    /**
+     * This method should return objects from the myArrayList in new order
+     * Однако он пока не работает:(
+     */
+
+    public QuickSortMyArrayList(MyArrayListRealization<E> myArrayListRealization){
+        quicksort(myArrayListRealization, 0, myArrayListRealization.size() - 1 );
+    }
 
     private static <E extends Comparable<E>> void quicksort(MyArrayListRealization<E> myArrayListRealization, int lowIndex, int highIndex) {
 
