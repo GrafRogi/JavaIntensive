@@ -1,7 +1,7 @@
 package main;
 
-import main.myCollections.arrayListRealization.MyArrayListRealization;
-import main.myCollections.arrayListRealization.quicksort.QuickSortMyArrayList;
+import main.java.arrayListRealization.MyArrayListRealization;
+import main.java.arrayListRealization.quicksort.QuickSortMyArrayList;
 
 /**
  * This is my Main class.

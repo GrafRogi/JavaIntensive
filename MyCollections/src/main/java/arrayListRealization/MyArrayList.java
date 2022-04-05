@@ -1,4 +1,9 @@
-package main.myCollections.arrayListRealization;
+package main.java.arrayListRealization;
+
+/**
+ * This is MyArrayList Interface
+ * @param <E>
+ */
 
 public interface MyArrayList<E>  extends Iterable<E> {
 

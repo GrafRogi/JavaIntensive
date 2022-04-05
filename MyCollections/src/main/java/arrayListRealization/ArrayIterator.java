@@ -1,6 +1,12 @@
-package main.myCollections.arrayListRealization;
+package main.java.arrayListRealization;
 
 import java.util.Iterator;
+
+/**
+ * This is realization Iterator interface
+ * It's need to use for-each cycle
+ * @param <E>
+ */
 
 public class ArrayIterator<E> implements Iterator<E> {
 

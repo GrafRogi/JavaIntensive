@@ -1,6 +1,7 @@
-package main.myCollections.arrayListRealization.quicksort;
+package main.java.arrayListRealization.quicksort;
 
-import main.myCollections.arrayListRealization.MyArrayListRealization;
+
+import main.java.arrayListRealization.MyArrayListRealization;
 
 /**
  * This class is used for quick sorting Object from myArrayList

@@ -1,4 +1,4 @@
-package main.myCollections.arrayListRealization;
+package main.java.arrayListRealization;
 
 import java.util.Iterator;
 
